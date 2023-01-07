@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+:root {
+    --fonte01: 'Permanent Marker', cursive;
+    --fonte02: 'Roboto Condensed', sans-serif;
+}
+
+* {
+    font-family: var(--fonte02);
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: rgba(128, 128, 128, 0.185);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: yellow;
+    text-align: center;
+    padding: 20px 0px;
+    font: 900 1.5em var(--fonte01);
+    font-variant: small-caps;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.259);
+}
+
+main {
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: white;
+    max-width: 700px;
+    margin: auto;
+    margin-bottom: 10px;
+    text-align: center;
+    list-style-position: inside;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.259);
+}
+
+main h1 {
+    padding: 30px 0px;
+    font: 700 2.5em var(--fonte01);
+}
+
+main h2 {
+    font-family: var(--fonte01);
+    padding-bottom: 2vh;
+    font-size: 2em;
+}
+
+section {
+    border-radius: 10px;
+    margin-bottom: 2vh;
+    padding: 30px 60px 30px 10px;
+    padding-right: 25vw;
+    text-align: left;
+    height: 30vh;
+}
+
+section.listas {
+    background-color: rgba(255, 255, 255, 0.777);
+    padding: 10px;
+    text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.389);
+    border-radius: 10px;
+}
+
+ul {
+    font-size: 1.2em;
+    columns: 2;
+}
+
+ul#c {
+    list-style-type: '\1F37A\00A0';
+}
+
+ul#e {
+    list-style-type: '\1F9C9\00A0';
+}
+
+ul#o {
+    list-style-type: '\1F964\00A0';
+}
+
+section#cervejas {
+    background: url(imagens/imagem-cerveja-700.jpg) center center no-repeat fixed;
+}
+
+section#energeticos {
+    background: url(imagens/imagem-redbull-700.jpg) bottom center no-repeat fixed;
+    background-position-y: 50%;
+    background-size: cover;
+}
+
+section#outros {
+    background: url(imagens/imagem-refris-700.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
+
+footer {
+    padding: 5px;
+    font-family: var(--fonte02);
+    text-align: center;
+    background-color: rgba(255, 255, 0, 0.781);
+}

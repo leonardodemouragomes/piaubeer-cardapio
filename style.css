@@ -65,47 +65,34 @@ main h4 {
 section {
     border-radius: 10px;
     margin-bottom: 2vh;
-    padding: 30px 0px 30px 10px;
-    padding-right: 5vw;
+    padding: 30px 0px 66px 10px;
+    padding-right: 10vw;
     text-align: left;
-    height: 45vh;
+    height: 49vh;
 }
 
 section.listas {
     background-color: rgba(255, 255, 255, 0.777);
-    padding: 10px;
+    padding: 15px 0px 10px 30px;
     text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.389);
     border-radius: 10px;
 }
 
 ul {
     font-size: 1.2em;
-    columns: 2;
-}
-
-ul#c {
-    list-style-type: '\1F37A\00A0';
-}
-
-ul#e {
-    list-style-type: '\1F9C9\00A0';
-}
-
-ul#o {
-    list-style-type: '\1F964\00A0';
 }
 
 li {
-    padding: 10px 0px;
+    padding: 5px 0px;
 }
 
 section#cervejas {
-    background: url(imagens/imagem-cerveja-700.jpg) top center no-repeat fixed;
+    background: url(imagens/imagem-cerveja-700.jpg) center center no-repeat fixed;
     background-size: cover;
 }
 
 section#energeticos {
-    background: url(imagens/imagem-redbull-700.jpg) bottom center no-repeat fixed;
+    background: url(imagens/imagem-redbull-700.jpg) center center no-repeat fixed;
     background-position-y: 50%;
     background-size: cover;
 }
